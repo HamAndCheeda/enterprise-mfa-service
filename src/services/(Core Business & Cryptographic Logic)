@@ -1,0 +1,5 @@
+TotpService.cs: Handles cryptographic base32 secret generation, QR code otpauth:// URI formatting, and RFC 6238 code validation using Otps.NET.
+
+BackupCodeService.cs: Handles single-use emergency backup code generation and one-way BCrypt hashing using BCrypt.Net-Next.
+
+TokenService.cs: Handles JWT creation and decoding for both pre_auth_token (5-minute expiry) and full session access tokens using System.IdentityModel.Tokens.Jwt.
