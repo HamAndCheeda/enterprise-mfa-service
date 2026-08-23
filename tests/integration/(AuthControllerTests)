@@ -1,0 +1,1 @@
+tests/integration/AuthControllerTests.cs: Simulates the full two-phase HTTP login workflow using Microsoft.AspNetCore.Mvc.Testing (WebApplicationFactory).
