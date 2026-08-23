@@ -1,0 +1,3 @@
+PreAuthTokenMiddleware.cs: Validates that incoming requests to protected 2FA endpoints carry a valid, unexpired pre_auth_token.
+
+RateLimitingMiddleware.cs: Tracks failed attempts by session and IP address to enforce temporary lockouts and mitigate brute-force DoS attacks.
